@@ -88,6 +88,7 @@ print("Output video type: " + video_type)
 ##########
 ## Define some functions to mark at image
 
+#abc
 def ellipse_set(person_conf_multi, people_i, point_i):
     return (person_conf_multi[people_i][point_i][0] - point_r, person_conf_multi[people_i][point_i][1] - point_r, person_conf_multi[people_i][point_i][0] + point_r, person_conf_multi[people_i][point_i][1] + point_r)
 
